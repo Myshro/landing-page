@@ -66,9 +66,113 @@ body {
     text-align: center;
     font-family: 'Roboto', arial;
     padding: 8px 12px;
-    border-color: rgb(199, 87, 67);
     border-radius: 20px;
+    border-color: thistle;
 }
 
 /* content */
+
+h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    margin: 0;
+    padding: 32px 0 16px 0;
+    color: rgb(32, 38, 44);
+}
+
+.content-squares {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    padding: 0 0 20px 0;
+    color: rgb(32, 38, 44);
+    gap: 30px;
+}
+
+.content-squares img {
+    width: 200px;
+    height: 200px;
+    border-width: 0px;
+    border-color: rgb(32, 38, 44);
+    border-style: solid;
+    margin: 16px 10px 0px 10px;
+    border-radius: 16px;
+    background-color: rgb(238, 241, 245);
+}
+
+/* quote */
+
+.quote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 100px;
+    background-color: rgb(238, 241, 245);
+}
+
+.quote .big {
+    font-size: 50px;
+    font-style: italic;
+    margin: 0;
+    text-align: center;
+    font-weight: 100;
+    color: thistle;
+}
+
+.quote a {
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(182, 151, 182);
+}
+
+.quote .small {
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(182, 151, 182);
+}
+
+/* sign up */
+
+.sign-up {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(32, 38, 44);
+    margin: 75px 300px;
+    padding: 30px 30px;
+    border-radius: 16px;
+    color: rgb(228, 231, 222);
+    gap: 200px;
+}
+
+.sign-up h3 {
+    font-size: 30px;
+    margin: 0;
+}
+
+.sign-up p {
+    font-size: 20px;
+}
+
+.sign-up button {
+    text-align: center;
+    font-family: 'Roboto', arial;
+    padding: 8px 12px;
+    border-radius: 20px;
+    border-color: thistle;
+    color: rgb(32, 38, 44);
+    background-color: rgb(234, 237, 241);
+}
+
+/* footer */
+
+.footer {
+    text-align: center;
+    background-color: rgb(32, 38, 44);
+    color: rgb(234, 237, 241);
+}
 
